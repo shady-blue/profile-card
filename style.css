@@ -16,8 +16,8 @@ body{
 .contain{
     width: 400px;
     border-radius: 30px;
-    /* background-color: rgb(177, 84, 124); */
-    box-shadow: 20px 20px 30px #367161 ,-20px -20px 30px #36714f;
+    background: linear-gradient(135deg, rgb(178, 93, 130) 0%, rgb(80, 40, 55) 100%);
+    box-shadow: 10px 10px 70px #161a19 ,-10px -10px 50px #efb8ef;
     padding: 20px;
     text-align: center;
 }
@@ -27,11 +27,27 @@ body{
    margin:10px auto ;
 } 
 .contain .pic img{
-    border: 5px solid #dc3f8b;
-    border-radius: 50%;
+    border: 3.3px solid #d08faf;
+    border-radius: 60%;
     width: 100%;
 }
 
 .contain h1{
-    color:white;
+    color:rgb(28, 27, 27);
+    padding-top: 28px;
+}
+.contain p{
+    color: #2c1325;
+    font-size: 16.55px;
+}
+.contain .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+}
+.contain .social i{
+   padding:  17px 17px 0 ;
+    font-size: 23px;
+    color: #d08faf;
 }
